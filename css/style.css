@@ -1,0 +1,102 @@
+body
+{
+    background: hsl(217, 54%, 11%);
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+img
+{
+    display: block;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card
+{
+    display: flex;
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    box-sizing: border-box;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    box-shadow: 0 30px 5px 16px hsla(216, 79%, 4%, 0.1), 0 30px 10px 50px hsla(216, 79%, 4%, 0.05);
+}
+
+.card > img
+{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card > h2
+{
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.card_desc
+{
+    line-height: 27px;
+}
+
+.card_info
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+
+}
+
+.card_info img
+{
+    display: inline;
+    margin-right: 5px; 
+}
+
+.card_price
+{
+    color: hsl(178, 100%, 50%);
+}
+
+.card_author
+{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    width: 100%;
+    font-size: 17px;
+}
+
+.card_author > img
+{
+    height: 2em;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 20px;
+}
+
+.card_author > p
+{
+    color: white;
+    margin-left: 5px;
+}
